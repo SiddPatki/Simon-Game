@@ -7,7 +7,7 @@ var userClickedPattern = [];
 var started = false;
 var level = 0;
 
-$(document).keypress(function() {
+$(document).on('click keypress',function() {
   if (!started) {
     nextSequence();
     started = true;
