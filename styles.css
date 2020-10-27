@@ -8,8 +8,16 @@ body {
   font-size: 3rem;
   margin: 5%;
   color: #fef2bf;
+  display: none;
+
 }
 
+#level-title-mobile{
+  font-family: "Press Start 2P", cursive;
+  font-size: 3rem;
+  margin: 5%;
+  color: #fef2bf;
+}
 .container {
   display: block;
   width: 50%;
@@ -63,10 +71,28 @@ body {
   background-color: grey;
 }
 
+#Instructions{
+  height: 50%;
+  width: 100%;
+  padding: 20px 0 500px 0;
+  background-color: aliceblue;
+  opacity: 0.5;
+  align-self: stretch;
+  text-align: center;
+}
+
 @media only screen and (min-width: 768px){
   .btn{
     width: 180px;
     height: 180px;
+  }
+  #level-title-mobile{
+    display: none;
+    
+  }
+  #level-title{
+    display: inline-block; 
+
   }
 
 }
