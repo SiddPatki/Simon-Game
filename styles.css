@@ -8,15 +8,12 @@ body {
   font-size: 3rem;
   margin: 5%;
   color: #fef2bf;
-  display: none;
-
 }
-
-#level-title-mobile{
-  font-family: "Press Start 2P", cursive;
-  font-size: 3rem;
-  margin: 5%;
-  color: #fef2bf;
+.pc{
+  display: none;
+}
+.mobile{
+  display: inline-block;
 }
 .container {
   display: block;
@@ -86,13 +83,11 @@ body {
     width: 180px;
     height: 180px;
   }
-  #level-title-mobile{
+  .mobile{
     display: none;
-    
   }
-  #level-title{
-    display: inline-block; 
-
+  .pc{
+    display: inline-block;
   }
 
 }
